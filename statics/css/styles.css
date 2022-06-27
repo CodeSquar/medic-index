@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+
+}
+
+
+.div-header{
+    display: flex;
+     background-color: #479dd2;
+     height: 80px;
+     width: 100%;
+     justify-content: center;
+
+}
+header{
+    display: flex;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: start;
+    width: 1000px;
+    gap: 30px;
+}
+.header-imglogo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    width: max-content
+
+}
+.nav-header{
+    width: max-content;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 350px;
+}
+.nav-a{
+   font-family: sans-serif;
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 17px;
+   transition: all 0.3s ease 0s;
+}
+.nav-a:hover{
+    color: rgb(216, 237, 255);
+
+}
+.imglogo{
+    height: 50px;
+
+}
+.turnos-div{
+    display: flex;
+    width:100% ;
+    margin-top: 50px;
+    justify-content: center;
+   
+
+}
+.turnos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    column-gap: 20px;
+    row-gap:25px;
+    width: 1000px;
+    justify-content: center;
+    padding: 0px 40px;
+   
+}
+.turnos-div-center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.turnos-link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.turnos-section{
+    display: flex;
+    
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: 85px;
+    border: 1px solid #479dd2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 24px -14px rgba(71,157,210,0.75);
+-webkit-box-shadow: 0px 4px 24px -14px rgba(71,157,210,0.75);
+-moz-box-shadow: 0px 4px 24px -14px rgba(71,157,210,0.75);
+transition: all 0.3s ease 0s;
+ cursor: pointer;
+ user-select: none;
+}
+.turnos-section:hover{
+    background-color: #479dd216;
+    transform: scale(1.05);
+
+}
+.turnos-div-div{
+    display: flex;
+   align-items: center;
+   column-gap: 30px;
+   justify-content: start;
+  
+   padding: 0px 25px;
+   width: 100%;
+   
+
+}
+.turnos-img{
+    height: 40px;
+    filter: invert(56%) sepia(50%) saturate(514%) hue-rotate(159deg) brightness(90%) contrast(95%);
+}
+h1{
+    font-family: 'Comfortaa', cursive;
+   font-weight: 100;
+   color: #479dd2;
+}
+.svg--{
+   
+    
+   
+}
